@@ -1,3 +1,4 @@
+import Footer from "@/components/landing-pages/Footer";
 import Hero from "@/components/landing-pages/Hero";
 import Team from "@/components/landing-pages/Team";
 import WhatWeOffer from "@/components/landing-pages/WhatWeOffer";
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <WhatWeOffer />
       <Team />
+      <Footer />
     </div>
   );
 }
