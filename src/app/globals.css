@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@theme {
+  --hero-image: url("https://www.muckle-llp.com/images/articles/energy.jpg");
+}

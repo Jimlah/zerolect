@@ -21,16 +21,27 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-5">
-          <div className="grid grid-rows-[auto_1fr_auto] gap-5">
-            <div className="bg-white rounded-lg invisible"></div>
-            <div className="bg-white rounded-lg h-full">Boy</div>
-            <div className="bg-white rounded-lg">Hello World</div>
-          </div>
-          <div className="grid grid-rows-[1fr_2fr] gap-5">
-            <div className="bg-white rounded-lg"></div>
-            <div className="bg-white rounded-lg"></div>
-          </div>
+        <div className="grid grid-cols-2 grid-rows-6 gap-5">
+          <div
+            className="bg-fixed bg-cover rounded-lg invisible bg-center"
+            style={{ backgroundImage: "var(--hero-image)" }}
+          />
+          <div
+            className="bg-fixed bg-cover row-span-2 rounded-lg bg-center"
+            style={{ backgroundImage: "var(--hero-image)" }}
+          />
+          <div
+            className="bg-fixed bg-cover row-span-4 rounded-lg bg-center"
+            style={{ backgroundImage: "var(--hero-image)" }}
+          />
+          <div
+            className="bg-fixed bg-cover row-span-4 rounded-lg bg-center"
+            style={{ backgroundImage: "var(--hero-image)" }}
+          />
+          <div
+            className="bg-fixed bg-cover row-span-1 rounded-lg bg-center"
+            style={{ backgroundImage: "var(--hero-image)" }}
+          />
         </div>
       </div>
     </div>
